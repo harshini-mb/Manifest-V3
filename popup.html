@@ -1,0 +1,20 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><title>GATE Streak</title><link rel="stylesheet" href="popup.css"></head>
+<body>
+  <header>
+    <div class="streak"><span id="cur">0</span><span class="unit">day streak</span></div>
+    <div class="meta"><div>Best <b id="best">0</b></div><div id="rest"></div></div>
+  </header>
+  <section>
+    <h2 id="today"></h2>
+    <ul id="tasks"></ul>
+    <form id="add"><input id="newTask" placeholder="Add a task for every day" maxlength="40"><button>Add</button></form>
+    <button id="restBtn" class="ghost"></button>
+  </section>
+  <section>
+    <h2>Last 12 weeks</h2>
+    <div id="heat"></div>
+    <div class="legend"><i class="c0"></i>none <i class="c1"></i>some <i class="c2"></i>most <i class="c3"></i>all <i class="cr"></i>rest</div>
+  </section>
+  <script src="shared.js"></script><script src="popup.js"></script>
+</body></html>

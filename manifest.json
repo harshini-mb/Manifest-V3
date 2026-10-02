@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "GATE Streak",
+  "version": "1.0.0",
+  "description": "Daily GATE DA checklist with streaks, rest days and a 12-week heatmap.",
+  "permissions": ["storage", "alarms", "notifications"],
+  "action": { "default_popup": "popup.html", "default_title": "GATE Streak" },
+  "background": { "service_worker": "background.js" },
+  "icons": { "48": "icon48.png", "128": "icon128.png" }
+}
